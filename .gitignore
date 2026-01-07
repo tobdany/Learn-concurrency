@@ -1,0 +1,29 @@
+# --- Directorios de construcción (Build) ---
+# Aquí es donde CMake guarda los .exe, .o y el cache
+build/
+out/
+bin/
+obj/
+
+# --- Archivos generados por CMake ---
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# --- Configuraciones de Visual Studio Code ---
+.vscode/
+# Excepción: Si quieres compartir tus tareas de VS Code, 
+# podrías comentar la línea de arriba, pero generalmente es mejor ignorarla.
+
+# --- Archivos del Sistema Operativo ---
+Thumbs.db
+.DS_Store
+
+# --- Ejecutables finales ---
+*.exe
+*.out
+*.app
